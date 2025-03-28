@@ -1,0 +1,28 @@
+TÌM HIỂU VỀ GIAO THỨC DÙNG ĐỂ GIAO TIẾP GIỮA WEBSITE VÀ MẠNG XÃ HỘI (FACEBOOK, INSTAGRAM...)
+
+1. ĐỊNH NGHĨA
+Giao thức giao tiếp giữa website và mạng xã hội là tập hợp các quy tắc và chuẩn kỹ thuật được thiết kế để cho phép website tương tác với các nền tảng mạng xã hội. Đây là các phương thức dựa trên giao diện lập trình ứng dụng (API) hoặc các chuẩn siêu dữ liệu, nhằm mục đích trao đổi thông tin, tích hợp tính năng hoặc chia sẻ nội dung giữa hai hệ thống. Giao thức này đóng vai trò như cầu nối, giúp website tận dụng dữ liệu và chức năng từ mạng xã hội để nâng cao trải nghiệm người dùng.
+
+2. TÍNH CHẤT/ĐẶC ĐIỂM
+- **Tính tương thích**: Được thiết kế để hoạt động trên nhiều nền tảng mạng xã hội khác nhau, đảm bảo khả năng kết nối rộng rãi.
+- **Tính bảo mật**: Sử dụng các cơ chế xác thực và mã hóa để bảo vệ dữ liệu người dùng trong quá trình tương tác.
+- **Tính linh hoạt**: Cho phép tùy chỉnh dữ liệu được truyền tải để phù hợp với yêu cầu của từng nền tảng.
+- **Thời gian thực**: Hỗ trợ cập nhật và phản hồi nhanh chóng giữa website và mạng xã hội.
+- **Dựa trên API**: Thường được xây dựng trên các giao thức lập trình như REST hoặc GraphQL, tạo điều kiện cho việc tích hợp kỹ thuật.
+- **Khả năng mở rộng**: Có thể thích nghi với các tính năng mới hoặc thay đổi từ phía mạng xã hội.
+
+3. LOẠI GIAO THỨC
+- **Giao thức siêu dữ liệu**: Chuẩn hóa thông tin từ website để hiển thị trên mạng xã hội khi nội dung được chia sẻ.
+- **Giao thức xác thực**: Cho phép người dùng sử dụng thông tin đăng nhập từ mạng xã hội để truy cập website.
+- **API dữ liệu**: Cung cấp khả năng truy xuất và quản lý thông tin từ mạng xã hội thông qua các yêu cầu lập trình.
+- **API thời gian thực**: Hỗ trợ gửi thông báo hoặc cập nhật dữ liệu từ mạng xã hội đến website ngay khi có sự kiện xảy ra.
+
+4. CÁCH TẠO
+- **Thiết lập siêu dữ liệu**: Thêm các thẻ hoặc cấu trúc dữ liệu vào website để chuẩn bị thông tin cho mạng xã hội.
+- **Tích hợp xác thực**: Sử dụng giao thức xác thực để liên kết tài khoản mạng xã hội với website.
+- **Kết nối API**: Đăng ký ứng dụng với mạng xã hội, thiết lập quyền truy cập và gửi yêu cầu dữ liệu qua các endpoint được cung cấp.
+- **Tích hợp nút chức năng**: Cài đặt các công cụ lập trình để thêm tính năng tương tác trực tiếp từ website lên mạng xã hội.
+- **Thiết lập thông báo thời gian thực**: Xây dựng điểm cuối trên server để nhận và xử lý dữ liệu từ mạng xã hội khi có sự kiện.
+
+KẾT LUẬN
+Giao thức giao tiếp giữa website và mạng xã hội là nền tảng kỹ thuật quan trọng để tăng cường sự kết nối và tương tác giữa hai hệ thống. Việc triển khai đòi hỏi sự hiểu biết về mục tiêu tích hợp và tuân thủ các quy định của từng nền tảng mạng xã hội, đồng thời tận dụng tính linh hoạt và bảo mật của giao thức để tối ưu hóa hiệu quả.
