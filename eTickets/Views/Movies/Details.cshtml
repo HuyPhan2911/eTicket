@@ -80,6 +80,12 @@
                                asp-controller="Orders" 
                                asp-action="AddItemToShoppingCart" asp-route-id="@Model.Id"><i class="bi bi-cart-plus"></i> Add to Cart (Price @Model.Price.ToString("c"))</a>
                         </p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=@ViewBag.MovieUrl" class="btn btn-danger btn-md my-0 p" target="_blank">
+                            Share on Facebook
+                        </a>
+                        <a class="btn btn-success text-white  @((DateTime.Now > Model.EndDate) ? "disabled" : "")"
+                           asp-controller="Orders"
+                           asp-action="AddItemToShoppingCart" asp-route-id="@Model.Id"><i class="bi bi-cart-plus"></i> Add to Cart (Price @Model.Price.ToString("c"))</a>
                     </div>
                 </div>
             </div>
